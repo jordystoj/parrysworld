@@ -1,0 +1,232 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  z-index: 0;
+}
+
+/*#header {
+  margin-top: 2em;
+  margin-bottom: 35px;
+  color: black;
+  font-size: 82px;
+  text-align: center;
+  font-family: "arial", "helvetica neue", "helvetica";
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #333;
+/*}*/
+
+.header img {
+  margin: 0 auto;
+  display: block;
+
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.bigger-container {
+  margin: 5em;
+}
+
+#content {
+  margin-bottom: 5em;
+}
+
+#comment{
+  font-size: 15px;
+}
+
+p {
+  font-size: 18px;
+}
+
+#delete-form {
+  display: inline-block;
+}
+/* ==================================
+  ALL THE STYLING FOR THE INDEX PAGE
+=====================================*/
+
+#index-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: block;
+
+}
+
+
+.post {
+  height: 300px;
+  width: 300px;
+  margin: 5em auto;
+  text-align: center;
+  position: relative;
+  transition: all 0.6s ease;
+  transform-style: preserve-3d;
+}
+
+.post-container {
+  perspective: 100;
+}
+
+.front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  width: 300px;
+  backface-visibility: hidden;
+}
+
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  width: 300px;
+  word-wrap: break-word;
+  backface-visibility: hidden;
+  background: #5677fc;
+  transform: rotateY(180deg);
+}
+
+.back h4 {
+  color: #ffffff;
+  line-height: 1.2em;
+  font-size: 40px;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.post:hover {
+  transform: rotateY(180deg);
+}
+
+/* ==================================
+  ALL THE STYLING FOR THE INDEX PAGE
+=====================================*/
+
+footer{
+	height: 35rem;
+	color:#fff;
+	font-size:12px;
+
+	position:relative;
+	z-index:-2;
+
+	background-color:#333;
+}
+
+.body-content {
+  z-index: 1;
+  position: relative;
+  padding: 10em 0;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+    background-image: url(http://duvario.com/image/cache/data/jeil-special-9260-1-bulut-gokyuzu-duvar-kagidi-800x800.jpg);
+    background-size: auto 200%;
+    background-repeat: no-repeat;
+}
+
+.social-icons {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.social {
+  padding-left: 1px;
+}
+
+
+.social li  {
+  font-size: 35px;
+  background: #b5d1ff;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  color: black;
+  margin-right: 3rem;
+}
+
+.social li a i {
+  color: #333;
+}
+
+.social li:hover {
+  background: white;
+}
+
+.nav-footer {
+  margin-top: 5rem;
+  color: white;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.nav-footer li a {
+  color: white;
+  font-size: 2rem;
+  padding-left: 20px;
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+.nav-footer li a:hover {
+  color: red;
+}
+
+.final-line {
+  color: white;
+  margin-top: 5rem;
+  text-align: center;
+  margin-right:55px;
+}
+
+.final-line ul li{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/**/
+
+@media (max-width: 600px) {
+  .container{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header img{
+    width: 70%;
+  }
+
+  #content img{
+    width: 100%;
+  }
+
+  .fb_iframe_widget iframe{
+    width: 300px !important;
+  }
+
+.nav-footer li a{
+  padding-left: 0;
+  font-size: 1.8rem;
+  padding-right: 1rem;
+}
+}

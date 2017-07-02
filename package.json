@@ -1,0 +1,26 @@
+{
+  "name": "parrys_world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan Stojcevski",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.6",
+    "ejs-lint": "^0.3.0",
+    "express": "^4.15.3",
+    "express-favicon": "^2.0.0",
+    "express-session": "^1.15.3",
+    "favicon": "0.0.2",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.10.5",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0"
+  }
+}
