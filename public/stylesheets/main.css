@@ -206,7 +206,7 @@ footer{
 
 /**/
 
-@media (max-width: 150px) {
+@media (max-width: 500px) {
   .container{
     padding-left: 0;
     padding-right: 0;
@@ -230,5 +230,7 @@ footer{
   padding-right: 1rem;
 }
 
-
+p {
+  font-size: 40px;
+}
 }
