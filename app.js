@@ -29,7 +29,7 @@ var postRoutes    = require("./routes/posts"),
 // SETUP APP
 //=================================================================
 
-    //seedDB();
+    seedDB();
 
     mongoose.connect("mongodb://localhost/parrys_world");
     app.use(bodyParser.urlencoded({extended: true}));
