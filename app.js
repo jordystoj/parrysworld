@@ -31,20 +31,6 @@ var postRoutes    = require("./routes/posts"),
 
     //seedDB();
 
-    User.create(
-     {
-         username: "Parry",
-         password: "admin"
-     },
-     function(err, user){
-      if(err){
-          console.log(err);
-      } else {
-          console.log("new user created");
-          console.log(user);
-      }
-    });
-
     mongoose.connect("mongodb://localhost/parrys_world");
     app.use(bodyParser.urlencoded({extended: true}));
     app.set("view engine", "ejs");

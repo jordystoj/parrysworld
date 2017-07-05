@@ -206,7 +206,7 @@ footer{
 
 /**/
 
-@media (max-width: 600px) {
+@media (max-width: 200px) {
   .container{
     padding-left: 0;
     padding-right: 0;
@@ -229,4 +229,6 @@ footer{
   font-size: 1.8rem;
   padding-right: 1rem;
 }
+
+
 }
