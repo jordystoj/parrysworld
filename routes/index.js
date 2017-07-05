@@ -56,22 +56,22 @@ function isLoggedIn(req, res, next){
 // REGISTER ROUTE - USED FOR REGISTERING PEOPLE
 //=================================================================
 
-// router.get("/register", function(req, res){
-//    res.render("register");
-// });
-//
-// //handle sign up logic
-// router.post("/register", function(req, res){
-//     var newUser = new User({username: req.body.username});
-//     User.register(newUser, req.body.password, function(err, user){
-//         if(err){
-//             console.log(err);
-//             return res.render("register");
-//         }
-//         passport.authenticate("local")(req, res, function(){
-//            res.redirect("/posts");
-//         });
-//     });
-// });
+router.get("/register", function(req, res){
+   res.render("register");
+});
+
+//handle sign up logic
+router.post("/register", function(req, res){
+    var newUser = new User({username: req.body.username});
+    User.register(newUser, req.body.password, function(err, user){
+        if(err){
+            console.log(err);
+            return res.render("register");
+        }
+        passport.authenticate("local")(req, res, function(){
+           res.redirect("/posts");
+        });
+    });
+});
 
 module.exports = router;

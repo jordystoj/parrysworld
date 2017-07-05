@@ -68,7 +68,8 @@ app.use(postRoutes);
 // SERVER SETUP
 //=================================================================
 
-const port = process.env.PORT || 3000;
-const host = process.env.HOST || 'localhost';
-console.log("serving on ", host, port);
+    app.listen(3000, function(){
+      console.log("serving on port 3000");
+    });
+
 //=================================================================
