@@ -206,7 +206,7 @@ footer{
 
 /**/
 
-@media (max-width: 500px) {
+@media (max-device-width: 500px) {
   .container{
     padding-left: 0;
     padding-right: 0;
