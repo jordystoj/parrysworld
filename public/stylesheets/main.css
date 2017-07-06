@@ -235,3 +235,29 @@ p {
   font-size: 40px;
 }
 }
+
+@media (max-width: 500px) {
+  .container{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .header img{
+    width: 70%;
+  }
+
+  #content img{
+    width: 100%;
+  }
+
+  .fb_iframe_widget iframe{
+    width: 55% !important;
+  }
+
+.nav-footer li a{
+  padding-left: 0;
+  font-size: 1.8rem;
+  padding-right: 1rem;
+}
+
+}
