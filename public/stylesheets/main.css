@@ -221,8 +221,8 @@ footer{
   }
 
   .fb_iframe_widget iframe{
-    width: 100% !important;
-    font-size: 20px;
+    width: 120% !important;
+    height: auto;
   }
 
 .nav-footer li a{
