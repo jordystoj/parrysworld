@@ -222,7 +222,7 @@ footer{
 
   .fb_iframe_widget iframe{
     width: 120% !important;
-    height: auto;
+    height: 200%;
   }
 
 .nav-footer li a{
