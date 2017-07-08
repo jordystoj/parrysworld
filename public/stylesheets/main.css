@@ -233,8 +233,6 @@ footer{
 .social li  {
   font-size: 5rem;
   text-align: center;
-  border-radius: 50%;
-  color: black;
   margin-right: 3rem;
 }
 
@@ -243,7 +241,7 @@ footer{
 }
 
 p {
-  font-size: 40px;
+  font-size: 4rem;
 }
 }
 
