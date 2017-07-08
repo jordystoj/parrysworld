@@ -129,13 +129,13 @@ footer{
 	font-size:12px;
 
 	position:relative;
-	z-index:-2;
+	z-index: 2;
 
 	background-color: orange;
 }
 
 .body-content {
-  z-index: 1;
+  z-index: 10;
   position: relative;
   padding: 10em 0;
     box-shadow: 0 3px 3px rgba(0,0,0,0.2);
@@ -156,16 +156,17 @@ footer{
 
 .social li  {
   font-size: 5rem;
-  width: 8rem;
-  height: 8rem;
   text-align: center;
-  border-radius: 50%;
   color: black;
-  margin-right: 3rem;
+  margin-right: 5rem;
+  margin-left: 2rem;
+  display: inline;
+  z-index: 100;
 }
 
 .social li a i {
   color: #ffffff;
+  z-index: 100000;
 }
 
 .social li a i:hover {
@@ -181,14 +182,17 @@ footer{
 
 .nav-footer li a {
   color: white;
-  font-size: 2rem;
+  font-size: 3rem;
   padding-left: 20px;
   padding-right: 40px;
   text-decoration: none;
+  z-index: 30;
 }
 
 .nav-footer li a:hover {
-  border-bottom: 2px solid red;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-decoration-style: solid;
 }
 
 .final-line {
@@ -201,6 +205,11 @@ footer{
 .final-line ul li{
   padding-left: 20px;
   padding-right: 20px;
+}
+
+input {
+  font-size: 18px;
+  padding: 25px;
 }
 
 /**/

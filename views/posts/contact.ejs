@@ -1,0 +1,35 @@
+<% include ../partials/header %>
+
+<div class="container">
+    <div class="row">
+        <h1 style="text-align: center; margin-top: 60px; font-size: 40px;">GIVE A SHOUT</h1>
+        <h4 style="margin-bottom: 60px; text-align: center;"> Thanks for your interest in Parry's World. For more information, feel free to get in touch. </h4>
+
+        <form action="/posts" method="POST" style="width: 80%; margin-left: 8.6em;">
+            <div class="form-group">
+                <input style="font-size: 18px; padding: 20px;" class="form-control" type="text" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input style="font-size: 18px; padding: 20px;" class="form-control" type="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input style="font-size: 18px; padding: 20px;" class="form-control" type="text" placeholder="Subject">
+            </div>
+            <div class="form-group">
+                <input style="font-size: 18px; padding: 20px;" class="form-control" type="text" placeholder="Phone">
+            </div>
+            <div class="form-group">
+                <input style="font-size: 18px; padding: 20px;" class="form-control" type="text" placeholder="Address">
+            </div>
+            <div class="form-group">
+                <textarea style="font-size: 18px; padding: 20px;" class="form-control" maxlength="140" placeholder="Message" cols="131" rows="5" style="resize:none"></textarea>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-large btn-success btn-block"><h4>Submit</h4></button>
+            </div>
+        </form>
+        <a href="/posts"></a>
+    </div>
+</div>
+
+<% include ../partials/footer %>
