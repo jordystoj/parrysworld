@@ -206,50 +206,62 @@ footer{
 /**/
 
 @media (max-device-width: 500px) {
-  .container{
-    padding-left: 0;
-    padding-right: 0;
-  }
+    .container{
+      padding-left: 0;
+      padding-right: 0;
+    }
 
-  .header img{
-    width: 70%;
-  }
+    .header img{
+      width: 70%;
+    }
 
-  #content img{
-    width: 100%;
-  }
+    #content img{
+      width: 100%;
+    }
 
-  .fb_iframe_widget iframe{
-    width: 120% !important;
-    height: 200%;
-  }
+    .fb_iframe_widget iframe{
+      width: 120% !important;
+      height: 200%;
+    }
 
-.nav-footer li a{
-  padding-left: 25px;
-  padding-right: 25px;
-  font-size: 4rem;
-  font-weight: 500;
-  padding-right: 1rem;
+    .nav-footer li a{
+      padding-left: 25px;
+      padding-right: 25px;
+      font-size: 4rem;
+      font-weight: 500;
+      padding-right: 1rem;
+    }
+
+    .social li  {
+      font-size: 5rem;
+      text-align: center;
+      margin-right: 3rem;
+    }
+
+    .social li a i {
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 4rem;
+    }
+
+    footer{
+      height: 45rem;
+    }
+
+    .back {
+      margin: 0;
+    }
+
+    .back h4 {
+      margin: 0;
+    }
 }
 
-.social li  {
-  font-size: 5rem;
-  text-align: center;
-  margin-right: 3rem;
-}
 
-.social li a i {
-  color: #ffffff;
-}
+/**/
 
-p {
-  font-size: 4rem;
-}
-
-footer{
-  height: 45rem;
-}
-}
 
 @media (max-width: 500px) {
   .container{
