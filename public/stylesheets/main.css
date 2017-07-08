@@ -225,7 +225,8 @@ footer{
   }
 
 .nav-footer li a{
-  padding-left: 0;
+  padding-left: 5px;
+  padding-right: 5px;
   font-size: 3.3rem;
   font-weight: 500;
   padding-right: 1rem;
