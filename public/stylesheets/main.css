@@ -245,6 +245,10 @@ footer{
 p {
   font-size: 4rem;
 }
+
+.footer{
+  height: 100%;
+}
 }
 
 @media (max-width: 500px) {
