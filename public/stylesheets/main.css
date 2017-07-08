@@ -155,10 +155,9 @@ footer{
 
 
 .social li  {
-  font-size: 35px;
-  background: #b5d1ff;
-  width: 50px;
-  height: 50px;
+  font-size: 5rem;
+  width: 8rem;
+  height: 8rem;
   text-align: center;
   border-radius: 50%;
   color: black;
@@ -166,11 +165,11 @@ footer{
 }
 
 .social li a i {
-  color: #333;
+  color: #ffffff;
 }
 
-.social li:hover {
-  background: white;
+.social li a i:hover {
+  color: gray;
 }
 
 .nav-footer {
@@ -189,7 +188,7 @@ footer{
 }
 
 .nav-footer li a:hover {
-  color: red;
+  border-bottom: 2px solid red;
 }
 
 .final-line {
@@ -229,6 +228,20 @@ footer{
   padding-left: 0;
   font-size: 1.8rem;
   padding-right: 1rem;
+}
+
+.social li  {
+  font-size: 5rem;
+  width: 8rem;
+  height: 8rem;
+  text-align: center;
+  border-radius: 50%;
+  color: black;
+  margin-right: 3rem;
+}
+
+.social li a i {
+  color: #ffffff;
 }
 
 p {
