@@ -116,7 +116,7 @@ router.delete("/posts/:id", middleware.isLoggedIn, function(req, res){
 // SUBSCRIBE ROUTE -- FOR PEOPLE TO SUBSCRIBE W/ EMAIL
 //=================================================================
 
-router.get("/subscribe", function(req, res){
+router.get("/hello", function(req, res){
     res.render("posts/new");
 });
 
