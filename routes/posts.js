@@ -117,7 +117,7 @@ router.delete("/posts/:id", middleware.isLoggedIn, function(req, res){
 //=================================================================
 
 router.get("/subscribe", function(req, res){
-    res.render("posts/edit");
+    res.render("posts/new");
 });
 
 //=================================================================
