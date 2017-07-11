@@ -33,6 +33,22 @@ router.post("/admin_login", passport.authenticate("local",
 });
 
 //=================================================================
+// SUBSCRIBE ROUTE -- FOR PEOPLE TO SUBSCRIBE W/ EMAIL
+//=================================================================
+
+router.get("/subscribe", function(req, res){
+    res.send("hello");
+});
+
+//=================================================================
+// CONTACT ROUTE -- FOR PEOPLE TO CONTACT ADMIN
+//=================================================================
+ router.get("/contact", function(req, res){
+   res.render("posts/contact")
+ });
+ 
+
+//=================================================================
 // LOGOUT ROUTE - LOGS THE USER OUT
 //=================================================================
 
@@ -73,20 +89,4 @@ function isLoggedIn(req, res, next){
 //         });
 //     });
 // });
-
-//=================================================================
-// SUBSCRIBE ROUTE -- FOR PEOPLE TO SUBSCRIBE W/ EMAIL
-//=================================================================
-
-router.get("/subscribe", function(req, res){
-    res.send("hello");
-});
-
-//=================================================================
-// CONTACT ROUTE -- FOR PEOPLE TO CONTACT ADMIN
-//=================================================================
- router.get("/contact", function(req, res){
-   res.render("posts/contact")
- });
- 
 module.exports = router;
