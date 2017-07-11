@@ -32,6 +32,9 @@ router.post("/admin_login", passport.authenticate("local",
     }), function(req, res){
 });
 
+router.get("/mate", function(req, res){
+    res.send("gday");
+});
 //=================================================================
 // SUBSCRIBE ROUTE -- FOR PEOPLE TO SUBSCRIBE W/ EMAIL
 //=================================================================
@@ -46,7 +49,7 @@ router.get("/subscribe", function(req, res){
  router.get("/contact", function(req, res){
    res.render("posts/contact")
  });
- 
+
 
 //=================================================================
 // LOGOUT ROUTE - LOGS THE USER OUT
