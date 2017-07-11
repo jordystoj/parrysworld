@@ -266,6 +266,11 @@ input {
     .back h4 {
       margin: 0;
     }
+
+    .post {
+      height: 50px;
+      width: 50px;
+    }
 }
 
 
