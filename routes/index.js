@@ -55,7 +55,7 @@ function isLoggedIn(req, res, next){
 //=================================================================
 // REGISTER ROUTE - USED FOR REGISTERING PEOPLE
 //=================================================================
-// 
+//
 // router.get("/register", function(req, res){
 //    res.render("register");
 // });
@@ -74,4 +74,19 @@ function isLoggedIn(req, res, next){
 //     });
 // });
 
+//=================================================================
+// SUBSCRIBE ROUTE -- FOR PEOPLE TO SUBSCRIBE W/ EMAIL
+//=================================================================
+
+router.get("/subscribe", function(req, res){
+    res.send("hello");
+});
+
+//=================================================================
+// CONTACT ROUTE -- FOR PEOPLE TO CONTACT ADMIN
+//=================================================================
+ router.get("/contact", function(req, res){
+   res.render("posts/contact")
+ });
+ 
 module.exports = router;
