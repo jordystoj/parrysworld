@@ -15,22 +15,17 @@ body {
   z-index: 0;
 }
 
-/*#header {
-  margin-top: 2em;
-  margin-bottom: 35px;
-  color: black;
-  font-size: 82px;
-  text-align: center;
-  font-family: "arial", "helvetica neue", "helvetica";
-  text-transform: uppercase;
-  font-weight: bolder;
-  color: #333;
-/*}*/
+.header {
+  margin-right: 30px;
+  margin-top: 0;
+}
 
 .header img {
   margin: 0 auto;
   display: block;
-  width: 30em;
+  width: 25em;
+  height: 16em;
+  padding-right: 0;
 }
 
 li {
