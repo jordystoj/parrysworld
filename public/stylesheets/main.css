@@ -30,7 +30,7 @@ body {
 .header img {
   margin: 0 auto;
   display: block;
-
+  width: 30em;
 }
 
 li {
@@ -72,8 +72,8 @@ p {
 
 
 .post {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   margin: 5em auto;
   text-align: center;
   position: relative;
@@ -89,8 +89,8 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   backface-visibility: hidden;
 }
 
@@ -98,8 +98,8 @@ p {
   position: absolute;
   top: 0;
   left: 0;
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
   word-wrap: break-word;
   backface-visibility: hidden;
   background: #5677fc;
