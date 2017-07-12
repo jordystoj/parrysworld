@@ -94,7 +94,7 @@ p {
   backface-visibility: hidden;
 }
 
-.back {
+/*.back {
   position: absolute;
   top: 0;
   left: 0;
@@ -117,7 +117,7 @@ p {
 
 .post:hover {
   transform: rotateY(180deg);
-}
+}*/
 
 /* ==================================
   ALL THE STYLING FOR THE INDEX PAGE
