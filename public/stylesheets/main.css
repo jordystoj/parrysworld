@@ -18,7 +18,7 @@ body {
 .header {
   margin-right: 30px;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .header img {
@@ -70,7 +70,7 @@ p {
 .post {
   height: 200px;
   width: 200px;
-  margin: 5em auto;
+  margin: 3em auto;
   text-align: center;
   position: relative;
   transition: all 0.6s ease;
