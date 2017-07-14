@@ -225,10 +225,6 @@ input {
       height: 100%;
     }
 
-    #content iframe {
-      width: 75%;
-    }
-
     .fb_iframe_widget iframe{
       width: 120% !important;
       height: 200%;
