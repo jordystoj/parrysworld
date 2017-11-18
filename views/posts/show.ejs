@@ -5,17 +5,27 @@
     <div class="row">
       <div class="col-xs-12 col-md-8">
         <div id="content">
+        <%= post.title %>
         <%- post.content %>
         </div>
-        <% if(currentUser && post.author.id.equals(currentUser._id)){ %>
+        <!-- <% if(currentUser && post.author.id.equals(currentUser._id)){ %> -->
           <a class="btn btn-md btn-warning" href="/posts/<%=  post._id %>/edit">Edit</a>
           <form id="delete-form" action="/posts/<%= post._id %>?_method=DELETE" method="POST">
             <button class="btn btn-md btn-danger">Delete</button>
           </form>
-        <% }%>
+        <!-- <% }%> -->
+        <!-- Your share button code -->
+        <div class="fb-share-button"
+          data-href="http://localhost:3000/posts/<%= post._id %>/"
+          data-layout="button_count" >
+        </div>
+        <div class="fb-like-button"
+          data-href="http://localhost:3000/posts/:id"
+          data-layout="button_count">
+        </div>
         <hr>
           <div class="text-right">
-            <div class="fb-comments" data-href="http://localhost:3000/posts/:id" data-numposts="5"></div>
+            <div class="fb-comments" data-href="http://localhost:3000/posts/<%= post._id %>" data-numposts="5"></div>
           </div>
           <br>
           <br>

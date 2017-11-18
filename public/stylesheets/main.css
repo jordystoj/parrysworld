@@ -9,6 +9,7 @@ html {
   box-sizing: inherit;
 }
 
+
 body {
   margin: 0;
   padding: 0;
@@ -63,7 +64,7 @@ p {
     width: 100%;
     position: absolute;
     display: block;
-
+    box-shadow: -2.5px 2.5px 3px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -283,20 +284,72 @@ input {
 
   .header img{
     width: 70%;
+    height: 70%;
   }
 
   #content img{
     width: 100%;
   }
 
+
+
   .fb_iframe_widget iframe{
     width: 55% !important;
   }
 
-.nav-footer li a{
-  padding-left: 0;
-  font-size: 1.8rem;
-  padding-right: 1rem;
+.social-icons li {
+  display: block;
+  clear: right;
+  font-size: 8em;
+  padding-left: 0.3em;
 }
 
+footer {
+  height: 100%;
+}
+
+.nav-footer li a{
+  font-size: 3.3rem;
+  margin: 0 auto;
+  padding-left: 1.6em;
+}
+
+#index-image {
+    object-fit: cover;
+    height: 120%;
+    width: 120%;
+    position: absolute;
+    display: block;
+    box-shadow: -2.5px 2.5px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+
+.post {
+  height: 200px;
+  width: 200px;
+  margin: 3em auto;
+  text-align: center;
+  position: relative;
+  transition: all 0.6s ease;
+  transform-style: preserve-3d;
+}
+
+  .post-container {
+    perspective: 100;
+  }
+
+  .front {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    backface-visibility: hidden;
+  }
+
+  .empty-spacing {
+    height: 20px;
+  }
 }
