@@ -8,12 +8,12 @@
         <%= post.title %>
         <%- post.content %>
         </div>
-        <!-- <% if(currentUser && post.author.id.equals(currentUser._id)){ %> -->
+        <% if(currentUser && post.author.id.equals(currentUser._id)){ %>
           <a class="btn btn-md btn-warning" href="/posts/<%=  post._id %>/edit">Edit</a>
           <form id="delete-form" action="/posts/<%= post._id %>?_method=DELETE" method="POST">
             <button class="btn btn-md btn-danger">Delete</button>
           </form>
-        <!-- <% }%> -->
+        <% }%>
         <!-- Your share button code -->
         <div class="fb-share-button"
           data-href="http://localhost:3000/posts/<%= post._id %>/"
