@@ -15,14 +15,7 @@
           </form>
         <% }%>
         <!-- Your share button code -->
-        <div class="fb-share-button"
-          data-href="http://localhost:3000/posts/<%= post._id %>/"
-          data-layout="button_count" >
-        </div>
-        <div class="fb-like-button"
-          data-href="http://localhost:3000/posts/:id"
-          data-layout="button_count">
-        </div>
+        <div class="fb-like" data-href="http://parrysworld.com/posts/<%= post._id %>" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
         <hr>
           <div class="text-right">
             <div class="fb-comments" data-href="http://localhost:3000/posts/<%= post._id %>" data-numposts="5"></div>
