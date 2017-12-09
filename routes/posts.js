@@ -14,6 +14,7 @@ router.get("/posts", function(req, res){
       console.log(err);
     } else {
       res.render("posts/index",{posts: allPosts});
+      console.log(posts);
     }
   });
 });
@@ -31,6 +32,7 @@ router.post("/posts", middleware.isLoggedIn, function(req, res){
     id: req.user._id,
     username: req.user.username
   }
+
   var newPost = {title: title, image: image, content: content, author: author};
   //Create a new campground and save to the DB
   Post.create(newPost, function(err, newlyCreated){

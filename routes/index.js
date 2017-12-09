@@ -55,7 +55,7 @@ function isLoggedIn(req, res, next){
 //=================================================================
 // REGISTER ROUTE - USED FOR REGISTERING PEOPLE
 //=================================================================
-//
+
 // router.get("/register", function(req, res){
 //    res.render("register");
 // });
